@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Mapa Firewatch";
+    // Tímto říkáme layoutu, že nechceme žádný <header> ani <footer>
+    Layout = "_Layout";
+}
+
+@* Tento wrapper použijeme, abychom pomocí CSS 
+  roztáhli mapu na celou obrazovku a překryli i navigaci.
+*@
+<div id="map-page-wrapper">
+
+    @* Kontejner mapy zůstává, ale jeho styly v CSS kompletně změníme *@
+    <div class="map-container" id="map-container">
+
+        <img src="~/images/Firewatch-World-Map-Clean.jpg" id="firewatch-map" alt="Mapa hry Firewatch - Two Forks Region Overview">
+
+        <div class="map-controls">
+            <button id="zoom-in" class="btn btn-dark btn-sm" title="Přiblížit">+</button>
+            <button id="zoom-out" class="btn btn-dark btn-sm" title="Oddálit">-</button>
+            <button id="zoom-reset" class="btn btn-secondary btn-sm" title="Resetovat">Res</button>
+        </div>
+    </div>
+
+</div>

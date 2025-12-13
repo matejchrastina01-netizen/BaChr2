@@ -1,0 +1,11 @@
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.deps.json
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.AssemblyInfoInputs.cache
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.AssemblyInfo.cs
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\refint\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
+C:\Users\matej\OneDrive - Univerzita Tomáše Bati ve Zlíně\5. semester\AP5PW - Pokročilé webové technologie\test\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\ref\UTB.BaChr.Mapy.Domain.dll

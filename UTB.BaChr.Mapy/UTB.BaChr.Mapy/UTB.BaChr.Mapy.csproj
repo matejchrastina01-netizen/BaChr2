@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UTB.Ba.Chr.Mapy.Infrastructure\UTB.BaChr.Mapy.Infrastructure.csproj" />
+    <ProjectReference Include="..\UTB.BaChr.Mapy.Application\UTB.BaChr.Mapy.Application.csproj" />
+    <ProjectReference Include="..\UTB.BaChr.Mapy.Domain\UTB.BaChr.Mapy.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\Location\" />
+    <Folder Include="Areas\Admin\Views\User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Firewatch-World-Map-Clean.jpg" />
+  </ItemGroup>
+
+</Project>
