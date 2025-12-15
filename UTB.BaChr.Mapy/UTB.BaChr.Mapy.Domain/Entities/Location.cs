@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UTB.BaChr.Mapy.Domain.Entities
 {
@@ -15,5 +11,9 @@ namespace UTB.BaChr.Mapy.Domain.Entities
         public string? Description { get; set; }
         public double? MapX { get; set; }
         public double? MapY { get; set; }
+
+        // Vazby
+        public virtual ICollection<Photo>? Photos { get; set; }
+        public virtual ICollection<Comment>? Comments { get; set; }
     }
 }

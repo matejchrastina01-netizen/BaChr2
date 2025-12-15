@@ -61,11 +61,12 @@ namespace UTB.BaChr.Mapy.Controllers
                 if (user != null)
                 {
                     var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.Email),       // Jméno pro systém (User.Identity.Name)
-                        new Claim("FullName", user.Name ?? ""),       // Vlastní claim pro zobrazení jména
-                        new Claim(ClaimTypes.Role, user.Role ?? "User")
-                    };
+{
+    new Claim(ClaimTypes.Name, user.Email),
+    new Claim("FullName", user.Name ?? ""),
+    new Claim(ClaimTypes.Role, user.Role ?? "Client"), // Defaultní role je Client (nebo User)
+    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()) // PŘIDÁNO: ID uživatele pro vazbu na data
+};
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 

@@ -1,0 +1,129 @@
+﻿@using System.Security.Claims
+@model UTB.BaChr.Mapy.Domain.Entities.Location
+
+@{
+    ViewData["Title"] = Model.Name;
+
+    // Zjištění informací o aktuálním uživateli pro zobrazení tlačítek "Smazat"
+    var currentUserIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    int currentUserId = 0;
+    if (currentUserIdStr != null) int.TryParse(currentUserIdStr, out currentUserId);
+
+    bool isAdmin = User.IsInRole("Admin");
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1>@Model.Name</h1>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Zpět na mapu</a>
+    </div>
+
+    <p class="lead">@Model.Description</p>
+
+    <hr />
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <h3>Fotogalerie</h3>
+
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <form asp-action="UploadPhoto" asp-controller="Location" method="post" enctype="multipart/form-data" class="mb-3 border p-3 rounded bg-light">
+                    <input type="hidden" name="locationId" value="@Model.Id" />
+                    <label class="form-label">Přidat novou fotku:</label>
+                    <div class="input-group">
+                        <input type="file" name="file" class="form-control" accept="image/*" required />
+                        <button type="submit" class="btn btn-primary">Nahrát</button>
+                    </div>
+                </form>
+            }
+            else
+            {
+                <div class="alert alert-light">Pro nahrávání fotek se musíte <a asp-controller="Account" asp-action="Login">přihlásit</a>.</div>
+            }
+
+            <div class="row g-3">
+                @if (Model.Photos != null && Model.Photos.Any())
+                {
+                    @foreach (var photo in Model.Photos)
+                    {
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card h-100 shadow-sm">
+                                <a href="@photo.ImagePath" target="_blank">
+                                    <img src="@photo.ImagePath" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Foto lokace">
+                                </a>
+                                @if (isAdmin || photo.UserId == currentUserId)
+                                {
+                                    <div class="card-footer bg-transparent border-top-0 p-1">
+                                        <form asp-action="DeletePhoto" asp-controller="Location" method="post">
+                                            <input type="hidden" name="id" value="@photo.Id" />
+                                            <input type="hidden" name="locationId" value="@Model.Id" />
+                                            <button type="submit" class="btn btn-sm btn-danger w-100" onclick="return confirm('Opravdu smazat?')">Smazat</button>
+                                        </form>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted ps-3">Zatím zde nejsou žádné fotky.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row pb-5">
+        <div class="col-md-8">
+            <h3>Komentáře</h3>
+
+            <div class="list-group mb-4">
+                @if (Model.Comments != null && Model.Comments.Any())
+                {
+                    @foreach (var comment in Model.Comments.OrderByDescending(c => c.DateCreated))
+                    {
+                        <div class="list-group-item">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1 fw-bold">@(comment.User?.Name ?? comment.User?.Email ?? "Neznámý uživatel")</h6>
+                                <small class="text-muted">@comment.DateCreated.ToString("g")</small>
+                            </div>
+                            <p class="mb-1 mt-1">@comment.Text</p>
+
+                            @if (isAdmin || comment.UserId == currentUserId)
+                            {
+                                <form asp-action="DeleteComment" asp-controller="Location" method="post" class="text-end">
+                                    <input type="hidden" name="id" value="@comment.Id" />
+                                    <input type="hidden" name="locationId" value="@Model.Id" />
+                                    <button type="submit" class="btn btn-link text-danger btn-sm p-0 border-0 text-decoration-none" style="font-size: 0.8rem;">Odstranit</button>
+                                </form>
+                            }
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted">Zatím žádné komentáře. Buďte první!</p>
+                }
+            </div>
+
+            @if (User.Identity != null && User.Identity.IsAuthenticated)
+            {
+                <form asp-action="AddComment" asp-controller="Location" method="post">
+                    <input type="hidden" name="locationId" value="@Model.Id" />
+                    <div class="mb-3">
+                        <label class="form-label">Váš komentář:</label>
+                        <textarea name="text" class="form-control" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Odeslat</button>
+                </form>
+            }
+            else
+            {
+                <div class="alert alert-light">Pro přidání komentáře se musíte <a asp-controller="Account" asp-action="Login">přihlásit</a>.</div>
+            }
+        </div>
+    </div>
+</div>

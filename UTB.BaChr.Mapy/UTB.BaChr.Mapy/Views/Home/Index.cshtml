@@ -16,15 +16,17 @@
                 <div class="list-group list-group-flush">
                     @foreach (var item in Model)
                     {
-                        <a href="#" class="list-group-item list-group-item-action location-item"
-                           data-x="@item.MapX"
-                           data-y="@item.MapY"
-                           onclick="zoomToLocation(@item.MapX, @item.MapY); return false;">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">@item.Name</h5>
+                        <div class="list-group-item location-item pt-3 pb-3">
+                            <div style="cursor: pointer;" onclick="zoomToLocation(@item.MapX, @item.MapY)">
+                                <h5 class="mb-1 text-primary">@item.Name</h5>
+                                <p class="mb-2 small text-muted">@item.Description</p>
                             </div>
-                            <small>@item.Description</small>
-                        </a>
+
+                            <a asp-controller="Location" asp-action="Details" asp-route-id="@item.Id"
+                               class="btn btn-sm btn-outline-secondary w-100 mt-1">
+                                Zobrazit detaily a fotky
+                            </a>
+                        </div>
                     }
                 </div>
             }
@@ -37,6 +39,5 @@
 </div>
 
 <script>
-    // Pass data to JS safely
     var mapLocations = @Html.Raw(Json.Serialize(Model));
 </script>

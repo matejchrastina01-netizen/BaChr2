@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UTB.BaChr.Mapy.Domain.Entities
 {
-    class Photo
+    [Table(nameof(Photo))]
+    public class Photo
     {
         public int Id { get; set; }
-        public string? Title { get; set; }
-        public Guid? UploadedById { get; set; }
-        public int? LocationId { get; set; }
-        public DateTime? CreatedAt { get; set; }
+
+        [Required]
+        public string ImagePath { get; set; } = string.Empty; // Cesta k souboru
+
+        public int LocationId { get; set; }
+        [ForeignKey(nameof(LocationId))]
+        public virtual Location? Location { get; set; }
+
+        public int UserId { get; set; }
+        [ForeignKey(nameof(UserId))]
+        public virtual User? User { get; set; }
     }
 }

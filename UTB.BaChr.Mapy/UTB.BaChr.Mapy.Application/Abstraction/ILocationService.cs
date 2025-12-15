@@ -6,10 +6,20 @@ namespace UTB.BaChr.Mapy.Application.Abstraction
     public interface ILocationService
     {
         IList<Location> Select();
-        // Tyto metody tam necháme pro budoucí použití, i když je teď mapa přímo nepotřebuje
         Location? GetById(int id);
+
+        // Nové metody pro detailní zobrazení s Include
+        Location? GetByIdWithDetails(int id);
+
         void Create(Location location);
         void Update(Location location);
         bool Delete(int id);
+
+        // Práce s obsahem
+        void AddComment(Comment comment);
+        bool DeleteComment(int commentId, int userId, bool isAdmin);
+
+        void AddPhoto(Photo photo);
+        bool DeletePhoto(int photoId, int userId, bool isAdmin);
     }
 }

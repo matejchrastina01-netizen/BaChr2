@@ -8,8 +8,9 @@ namespace UTB.BaChr.Mapy.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ILocationService _locationService;
+        private readonly ILocationService _locationService; // Služba pro data
 
+        // Injektáž služby
         public HomeController(ILogger<HomeController> logger, ILocationService locationService)
         {
             _logger = logger;
@@ -18,7 +19,7 @@ namespace UTB.BaChr.Mapy.Controllers
 
         public IActionResult Index()
         {
-            // Naèteme všechny lokace z databáze
+            // Získání všech lokací a jejich odeslání do View
             var locations = _locationService.Select();
             return View(locations);
         }
