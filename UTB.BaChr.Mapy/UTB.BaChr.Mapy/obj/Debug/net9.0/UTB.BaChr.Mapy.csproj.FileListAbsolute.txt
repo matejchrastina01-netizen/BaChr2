@@ -337,9 +337,7 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Map
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\scopedcss\bundle\UTB.BaChr.Mapy.styles.css
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\scopedcss\projectbundle\UTB.BaChr.Mapy.bundle.scp.css
-C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\zmarjzxskw-fzhevcpvw4.gz
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\yuge7lnuu4-61n19gt1b8.gz
-C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\bl3dcr4hbo-ytnw4u99m6.gz
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\r51d152lxl-t1cqhe9u97.gz
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\5svc4kcf3r-c2jlpeoesf.gz
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\070ted2c3a-sejl45xvog.gz
@@ -417,3 +415,5 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Map
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\UTB.BaChr.Mapy.pdb
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\UTB.BaChr.Mapy.genruntimeconfig.cache
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\ref\UTB.BaChr.Mapy.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\zmarjzxskw-0sb5r5di6j.gz
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\obj\Debug\net9.0\compressed\bl3dcr4hbo-9o4euvxklx.gz

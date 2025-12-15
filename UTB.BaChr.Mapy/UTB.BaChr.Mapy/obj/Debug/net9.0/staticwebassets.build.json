@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xOE/V4cNzhuPtWJTGGmNk7mmFptvvsA6fikz3IX119E=",
+  "Hash": "2geJyfuPcuIUU48pJc0WsZt89dWJyC815BIX2ljEShM=",
   "Source": "UTB.BaChr.Mapy",
   "BasePath": "_content/UTB.BaChr.Mapy",
   "Mode": "Default",
@@ -374,12 +374,12 @@
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-ytnw4u99m6.gz",
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-9o4euvxklx.gz",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/UTB.BaChr.Mapy",
-      "RelativePath": "js/site#[.{fingerprint=ytnw4u99m6}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=9o4euvxklx}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -388,8 +388,8 @@
       "RelatedAsset": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jbicny2plw",
-      "Integrity": "QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw=",
+      "Fingerprint": "jvnhqhidqv",
+      "Integrity": "4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js"
@@ -1319,12 +1319,12 @@
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-fzhevcpvw4.gz",
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-0sb5r5di6j.gz",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/UTB.BaChr.Mapy",
-      "RelativePath": "css/site#[.{fingerprint=fzhevcpvw4}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=0sb5r5di6j}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5zbkqwq4s8",
-      "Integrity": "ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA=",
+      "Fingerprint": "av7mqtt00t",
+      "Integrity": "qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fzhevcpvw4",
-      "Integrity": "dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os=",
+      "Fingerprint": "0sb5r5di6j",
+      "Integrity": "4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ytnw4u99m6",
-      "Integrity": "WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M=",
+      "Fingerprint": "9o4euvxklx",
+      "Integrity": "1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-fzhevcpvw4.gz",
+      "Route": "css/site.0sb5r5di6j.css",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-0sb5r5di6j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000773993808"
+          "Quality": "0.001117318436"
         }
       ],
       "ResponseHeaders": [
@@ -2765,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1291"
+          "Value": "894"
         },
         {
           "Name": "ETag",
-          "Value": "\"ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA=\""
+          "Value": "\"qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2793,18 +2793,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os=\""
+          "Value": "W/\"4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "0sb5r5di6j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os="
+          "Value": "sha256-4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.0sb5r5di6j.css",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2814,7 +2822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2789"
+          "Value": "1923"
         },
         {
           "Name": "Content-Type",
@@ -2822,121 +2830,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os=\""
+          "Value": "\"4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-fzhevcpvw4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1291"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.fzhevcpvw4.css",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-fzhevcpvw4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000773993808"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1291"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fzhevcpvw4"
+          "Value": "0sb5r5di6j"
         },
         {
           "Name": "label",
@@ -2944,13 +2852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os="
+          "Value": "sha256-4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8="
         }
       ]
     },
     {
-      "Route": "css/site.fzhevcpvw4.css",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
+      "Route": "css/site.0sb5r5di6j.css.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-0sb5r5di6j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2959,7 +2867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2789"
+          "Value": "894"
         },
         {
           "Name": "Content-Type",
@@ -2967,56 +2875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os=\""
+          "Value": "\"qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fzhevcpvw4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dS5prLwyOTP0SwaCaM5Wkqb3pf3cORbHpyYIIBF42Os="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.fzhevcpvw4.css.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-fzhevcpvw4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1291"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +2897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fzhevcpvw4"
+          "Value": "0sb5r5di6j"
         },
         {
           "Name": "label",
@@ -3042,7 +2905,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ofOpMxRLqjBViJgkZ7+/WfVkhM66HanFZD2f4YHhUJA="
+          "Value": "sha256-qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-0sb5r5di6j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001117318436"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "894"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Emj/yV+HvFyZMZDb4spt9Ak28o0eOvMSOM+N/Ui6S8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-0sb5r5di6j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:22:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnA4GpnYcOf96X+dS2p1KO6LspbzLHb7sKXXVfyzItQ="
         }
       ]
     },
@@ -3427,13 +3427,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-ytnw4u99m6.gz",
+      "Route": "js/site.9o4euvxklx.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-9o4euvxklx.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000541711809"
+          "Quality": "0.000901713255"
         }
       ],
       "ResponseHeaders": [
@@ -3443,19 +3443,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1845"
+          "Value": "1108"
         },
         {
           "Name": "ETag",
-          "Value": "\"QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw=\""
+          "Value": "\"4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3471,18 +3471,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M=\""
+          "Value": "W/\"1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "9o4euvxklx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M="
+          "Value": "sha256-1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.9o4euvxklx.js",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3492,7 +3500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6191"
+          "Value": "2485"
         },
         {
           "Name": "Content-Type",
@@ -3500,121 +3508,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M=\""
+          "Value": "\"1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-ytnw4u99m6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1845"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.ytnw4u99m6.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-ytnw4u99m6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000541711809"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1845"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytnw4u99m6"
+          "Value": "9o4euvxklx"
         },
         {
           "Name": "label",
@@ -3622,13 +3530,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M="
+          "Value": "sha256-1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8="
         }
       ]
     },
     {
-      "Route": "js/site.ytnw4u99m6.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
+      "Route": "js/site.9o4euvxklx.js.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-9o4euvxklx.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3637,7 +3545,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6191"
+          "Value": "1108"
         },
         {
           "Name": "Content-Type",
@@ -3645,56 +3553,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M=\""
+          "Value": "\"4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ytnw4u99m6"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WjONsxbw9MfKB7nrwsrXaF0RdAQ3pjmQDtKBfMQRZ8M="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.ytnw4u99m6.js.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-ytnw4u99m6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1845"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 12:08:43 GMT"
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3712,7 +3575,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ytnw4u99m6"
+          "Value": "9o4euvxklx"
         },
         {
           "Name": "label",
@@ -3720,7 +3583,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QXk4pAqv0cGfg0C+U4iiUEEVQ0dp1miFXJYKovzf2Nw="
+          "Value": "sha256-4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-9o4euvxklx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000901713255"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1108"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yY0JM9s0cmTMHcFpU5Fl4qXDMCcT89uoQBAcEVysw8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-9o4euvxklx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 15:28:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4c6VsqxlocTrUz5UHW2MUwJi1iXQ66l1qEi4Q7ierVg="
         }
       ]
     },

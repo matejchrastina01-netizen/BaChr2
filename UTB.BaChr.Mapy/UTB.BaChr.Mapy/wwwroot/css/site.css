@@ -8,98 +8,83 @@ html {
     }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-    color: var(--bs-secondary-color);
-    text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-    text-align: start;
-}
-
-/* ----------------------------------------------- */
-/* ----- Kód pro Fullscreen Mapu (Google Styl) ----- */
-/* ----------------------------------------------- */
-
-/* Tento wrapper "pøebije" celou stránku a skryje navbar/footer.
-  Funguje jako "pláš" pøes celou stránku.
-*/
-#map-page-wrapper {
-    position: fixed; /* Zùstane na místì, i kdyby se stránka posunula */
-    top: 0;
-    left: 0;
-    width: 100vw; /* 100% šíøky okna */
-    height: 100vh; /* 100% vıšky okna */
-    z-index: 999; /* Vysokı index, aby pøekryl ostatní prvky */
-    background-color: #f8f9fa; /* Základní pozadí */
-}
-
-/* Kontejner mapy teï vyplní celı "pláš"
-  DÙLEITÁ ZMÌNA: overflow: hidden! 
-  Posouvání u neøeší scrollbary, ale náš JavaScript.
-*/
-.map-container {
-    position: relative;
-    width: 100%;
+/* DÙLEITÉ: Roztáhnout stránku na 100%, aby mapa byla pøes celou obrazovku */
+html, body {
     height: 100%;
-    overflow: hidden; /* Zabrání scrollbarùm, posun øešíme v JS */
-    border: none;
-    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Zabrání dvojitému posuvníku */
 }
 
-/* Samotnı obrázek mapy.
-  Budeme ho ovládat pomocí `transform: translate()` a `scale()`.
-*/
-#firewatch-map {
-    /* Zaèínáme na 100% šíøky. Vıška se pøizpùsobí. */
-    /* DÙLEITÉ: Pokud je váš obrázek vyšší ne širší, moná budete 
-       chtít `width: auto; height: 100%;` */
+/* Navbar úpravy */
+.navbar {
+    margin-bottom: 0 !important; /* Odstraníme mezeru pod menu */
+    z-index: 1001; /* Aby bylo menu nad mapou */
+    position: relative;
+}
+
+/* Rozloení mapy (Levı panel + Mapa) */
+.map-layout {
+    display: flex;
+    height: calc(100vh - 57px); /* Vıška okna minus vıška navbaru */
     width: 100%;
-    height: auto;
-    /* Pùvod transformací je levı horní roh */
-    transform-origin: 0 0;
-    /* Plynulá animace POUZE pro zoom. Nechceme animovat posun (bylo by to trhané) */
-    transition: transform 0.2s ease-in-out;
-    /* Kurzor se zmìní na "ruku" */
-    cursor: grab;
 }
 
-    /* Kdy uivatel táhne, kurzor se zmìní na "sevøenou pìst" */
-    #firewatch-map.is-dragging {
-        cursor: grabbing;
-    }
-
-/* Ovládací tlaèítka
-  Musí mít vyšší z-index ne "pláš" (#map-page-wrapper)
-*/
-.map-controls {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 1000; /* Musí bıt úplnì nahoøe */
+/* Levı postranní panel */
+.sidebar {
+    width: 350px;
+    min-width: 350px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
     display: flex;
     flex-direction: column;
+    z-index: 1000;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
-    .map-controls button {
-        width: 40px;
-        font-weight: bold;
-        margin-bottom: 5px;
+.sidebar-header {
+    padding: 15px;
+    background-color: #343a40;
+    color: white;
+}
+
+    .sidebar-header h3 {
+        margin: 0;
+        font-size: 1.25rem;
     }
 
-#zoom-reset {
-    margin-top: 5px;
+/* Obsah sidebaru - skrolovatelnı seznam */
+.sidebar-content {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.location-item {
+    cursor: pointer;
+    border-left: 3px solid transparent;
+}
+
+    .location-item:hover {
+        background-color: #e9ecef;
+        border-left: 3px solid #0d6efd;
+    }
+
+/* Kontejner mapy - zabere zbytek místa */
+#map-container {
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+    width: 100%; /* Dùleité pro Leaflet */
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    background: #242424; /* Tmavé pozadí pod mapou */
+}
+
+/* Bootstrap opravy */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }

@@ -120,7 +120,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.Ba.Chr.Mapy.Infrastructure\\UTB.BaChr.Mapy.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.Ba.Chr.Mapy.Infrastructure\\UTB.BaChr.Mapy.Infrastructure.csproj"
+              },
+              "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj": {
+                "projectPath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

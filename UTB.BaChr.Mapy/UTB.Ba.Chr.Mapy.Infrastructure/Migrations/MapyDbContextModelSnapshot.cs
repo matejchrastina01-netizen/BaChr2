@@ -44,6 +44,56 @@ namespace UTB.BaChr.Mapy.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Location");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Henryho strážní věž. Domov daleko od domova.",
+                            MapX = 1268.0,
+                            MapY = 1395.0,
+                            Name = "Two Forks Tower"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Thorofare Lookout. Věž, kde slouží Delilah.",
+                            MapX = 1132.0,
+                            MapY = 225.0,
+                            Name = "Delilah's Tower"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Klidné jezero ideální pro rybaření a přemýšlení.",
+                            MapX = 275.0,
+                            MapY = 1206.0,
+                            Name = "Jonesy Lake"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Místo s nádherným výhledem na celé údolí.",
+                            MapX = 1283.0,
+                            MapY = 323.0,
+                            Name = "Beartooth Point"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "Oplocená výzkumná stanice. Vstup zakázán.",
+                            MapX = 562.0,
+                            MapY = 770.0,
+                            Name = "Wapiti Station"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Description = "Potok protékající jižní částí lesa.",
+                            MapX = 1013.0,
+                            MapY = 1787.0,
+                            Name = "Cottonwood Creek"
+                        });
                 });
 
             modelBuilder.Entity("UTB.BaChr.Mapy.Domain.Entities.User", b =>

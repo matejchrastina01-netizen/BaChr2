@@ -1,21 +1,26 @@
 using Microsoft.EntityFrameworkCore;
 using UTB.BaChr.Mapy.Infrastructure.Database;
-using Microsoft.AspNetCore.Authentication.Cookies; // NOVÉ: Pøidat tento namespace
+using Microsoft.AspNetCore.Authentication.Cookies;
+using UTB.BaChr.Mapy.Application.Abstraction;
+using UTB.BaChr.Mapy.Application.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-// NOVÉ: Konfigurace Cookie Authentication
+// Konfigurace Cookie Authentication (zachováno z vašeho kódu)
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.LoginPath = "/Account/Login";
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
-// KONEC NOVÉHO
+
+// DÙLEŽITÉ: Registrace služby pro lokace (aby fungovala mapa v HomeControlleru)
+builder.Services.AddScoped<ILocationService, LocationService>();
 
 string connectionString = builder.Configuration.GetConnectionString("MySQL");
+// Ujistìte se, že verze serveru odpovídá vaší databázi (zachováno z vašeho kódu)
 ServerVersion serverVersion = new MySqlServerVersion("8.0.38");
 
 builder.Services.AddDbContext<MapyDbContext>(optionsBuilder => optionsBuilder.UseMySql(connectionString, serverVersion));
@@ -31,7 +36,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
-app.UseAuthentication(); // NOVÉ: Musí být PØED UseAuthorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();

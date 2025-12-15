@@ -1,14 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UTB.BaChr.Mapy.Domain.Entities;
+using UTB.BaChr.Mapy.Infrastructure.Database.Seeding; // Add this namespace
 
 namespace UTB.BaChr.Mapy.Infrastructure.Database
 {
-
     public class MapyDbContext : DbContext
     {
         public DbSet<Location> Locations { get; set; }
@@ -16,6 +11,16 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database
 
         public MapyDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {
+        }
+
+        // --- ADD THIS METHOD ---
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Call the LocationInit seeder
+            LocationInit locationInit = new LocationInit();
+            modelBuilder.Entity<Location>().HasData(locationInit.GetLocations());
         }
     }
 }

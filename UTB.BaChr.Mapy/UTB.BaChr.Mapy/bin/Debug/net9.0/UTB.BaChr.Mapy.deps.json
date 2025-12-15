@@ -668,6 +668,10 @@
       },
       "System.Threading.Channels/7.0.0": {},
       "UTB.BaChr.Mapy.Application/1.0.0": {
+        "dependencies": {
+          "UTB.BaChr.Mapy.Domain": "1.0.0",
+          "UTB.BaChr.Mapy.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "UTB.BaChr.Mapy.Application.dll": {
             "assemblyVersion": "1.0.0.0",

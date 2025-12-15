@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.BaChr.Mapy", "UTB.BaChr.Mapy\UTB.BaChr.Mapy.csproj", "{A3E149D2-34C8-47E9-AAEA-DC4AE512305A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.BaChr.Mapy.Application", "UTB.BaChr.Mapy.Application\UTB.BaChr.Mapy.Application.csproj", "{F0E1900F-A4D2-4312-99ED-530949AF2A22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{513D2FD7-2231-4DDF-96D4-C05DDC1138B0} = {513D2FD7-2231-4DDF-96D4-C05DDC1138B0}
+		{C194B4C6-1A99-4399-9047-2A8DCC94E187} = {C194B4C6-1A99-4399-9047-2A8DCC94E187}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTB.BaChr.Mapy.Domain", "UTB.BaChr.Mapy.Domain\UTB.BaChr.Mapy.Domain.csproj", "{513D2FD7-2231-4DDF-96D4-C05DDC1138B0}"
 EndProject

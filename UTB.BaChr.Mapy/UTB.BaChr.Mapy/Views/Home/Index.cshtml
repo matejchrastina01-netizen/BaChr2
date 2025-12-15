@@ -1,28 +1,42 @@
-﻿@{
-    ViewData["Title"] = "Mapa Firewatch";
-    // Tímto říkáme layoutu, že nechceme žádný <header> ani <footer>
-    Layout = "_Layout";
+﻿@using UTB.BaChr.Mapy.Domain.Entities
+@model IEnumerable<Location>
+
+@{
+    ViewData["Title"] = "Mapa";
 }
 
-@* Tento wrapper použijeme, abychom pomocí CSS 
-   roztáhli mapu na celou obrazovku a překryli i navigaci.
-*@
-<div id="map-page-wrapper" style="position: relative;">
-    @* Pridané position: relative pre istotu *@
-
-
-    @* --------------------------------------------------- *@
-
-    @* Kontejner mapy zůstává, ale jeho styly v CSS kompletně změníme *@
-    <div class="map-container" id="map-container">
-
-        <img src="~/images/Firewatch-World-Map-Clean.jpg" id="firewatch-map" alt="Mapa hry Firewatch - Two Forks Region Overview">
-
-        <div class="map-controls">
-            <button id="zoom-in" class="btn btn-dark btn-sm" title="Přiblížit">+</button>
-            <button id="zoom-out" class="btn btn-dark btn-sm" title="Oddálit">-</button>
-            <button id="zoom-reset" class="btn btn-secondary btn-sm" title="Resetovat">Res</button>
+<div class="map-layout">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>Lokace</h3>
+        </div>
+        <div class="sidebar-content">
+            @if (Model != null)
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var item in Model)
+                    {
+                        <a href="#" class="list-group-item list-group-item-action location-item"
+                           data-x="@item.MapX"
+                           data-y="@item.MapY"
+                           onclick="zoomToLocation(@item.MapX, @item.MapY); return false;">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">@item.Name</h5>
+                            </div>
+                            <small>@item.Description</small>
+                        </a>
+                    }
+                </div>
+            }
         </div>
     </div>
 
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
 </div>
+
+<script>
+    // Pass data to JS safely
+    var mapLocations = @Html.Raw(Json.Serialize(Model));
+</script>
