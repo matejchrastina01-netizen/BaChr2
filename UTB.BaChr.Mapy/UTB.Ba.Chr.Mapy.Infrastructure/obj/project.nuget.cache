@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0p2lmRUJvZE=",
+  "dgSpecHash": "x8DFqi9KgCw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.Ba.Chr.Mapy.Infrastructure\\UTB.BaChr.Mapy.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.Ba.Chr.Mapy.Infrastructure\\UTB.BaChr.Mapy.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matej\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\matej\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.10\\microsoft.aspnetcore.cryptography.internal.9.0.10.nupkg.sha512",

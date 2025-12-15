@@ -8,7 +8,6 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database
     {
         public DbSet<Location> Locations { get; set; }
         public DbSet<User> Users { get; set; }
-        // NOVÉ:
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Comment> Comments { get; set; }
 
@@ -20,11 +19,13 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seeding lokací
+            // 1. Seeding Lokací (to už tam máte)
             LocationInit locationInit = new LocationInit();
             modelBuilder.Entity<Location>().HasData(locationInit.GetLocations());
 
-            // Zde by mohl být i seeding Admina, pokud ho nemáte
+            // 2. NOVÉ: Seeding Uživatelů (Admin + Klient)
+            UserInit userInit = new UserInit();
+            modelBuilder.Entity<User>().HasData(userInit.GetUsers());
         }
     }
 }

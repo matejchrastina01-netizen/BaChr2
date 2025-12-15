@@ -177,6 +177,24 @@ namespace UTB.BaChr.Mapy.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "admin@admin.cz",
+                            Name = "Hlavní Administrátor",
+                            PasswordHash = "admin",
+                            Role = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "klient@klient.cz",
+                            Name = "Testovací Klient",
+                            PasswordHash = "klient",
+                            Role = "User"
+                        });
                 });
 
             modelBuilder.Entity("UTB.BaChr.Mapy.Domain.Entities.Comment", b =>

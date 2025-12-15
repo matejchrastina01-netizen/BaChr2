@@ -1,8 +1,10 @@
 ﻿@using System.Security.Claims
-@model UTB.BaChr.Mapy.Domain.Entities.Location
+@using UTB.BaChr.Mapy.Domain.Entities
+@model Location
 
 @{
     ViewData["Title"] = Model.Name;
+    ViewData["HideFooter"] = true; // TOTO SKRYJE SPODNÍ LIŠTU
 
     // Zjištění informací o aktuálním uživateli pro zobrazení tlačítek "Smazat"
     var currentUserIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -12,7 +14,7 @@
     bool isAdmin = User.IsInRole("Admin");
 }
 
-<div class="container mt-4">
+<div class="container mt-4 mb-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h1>@Model.Name</h1>
         <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Zpět na mapu</a>

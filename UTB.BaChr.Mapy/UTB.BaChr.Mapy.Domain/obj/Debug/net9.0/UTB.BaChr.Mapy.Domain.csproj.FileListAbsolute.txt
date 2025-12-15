@@ -21,3 +21,15 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Map
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\refint\UTB.BaChr.Mapy.Domain.dll
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\ref\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.deps.json
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\bin\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.AssemblyInfoInputs.cache
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.AssemblyInfo.cs
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.sourcelink.json
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\refint\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\ref\UTB.BaChr.Mapy.Domain.dll

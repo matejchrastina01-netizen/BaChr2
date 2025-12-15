@@ -1,5 +1,6 @@
-﻿// Globální proměnná pro mapu
+﻿// Globální proměnné
 var myMap;
+var markers = {};
 
 $(document).ready(function () {
     if ($('#map').length > 0) {
@@ -23,37 +24,46 @@ function initMap() {
     L.control.zoom({ position: 'topright' }).addTo(map);
     myMap = map;
 
-    var southWest = map.unproject([0, h], map.getMaxZoom() - 1);
-    var northEast = map.unproject([w, 0], map.getMaxZoom() - 1);
-    var bounds = new L.LatLngBounds(southWest, northEast);
+    // 1. Definice hranic samotného obrázku (přesně 2048x2048)
+    var southWestImg = map.unproject([0, h], map.getMaxZoom() - 1);
+    var northEastImg = map.unproject([w, 0], map.getMaxZoom() - 1);
+    var imageBounds = new L.LatLngBounds(southWestImg, northEastImg);
 
-    L.imageOverlay('/images/Firewatch-World-Map-Clean.jpg', bounds).addTo(map);
+    // 2. Definice hranic pro pohyb (přidáme 500px "vatu" okolo, aby se neusekávaly popisky)
+    var padding = 500;
+    var southWestMax = map.unproject([-padding, h + padding], map.getMaxZoom() - 1);
+    var northEastMax = map.unproject([w + padding, -padding], map.getMaxZoom() - 1);
+    var maxBounds = new L.LatLngBounds(southWestMax, northEastMax);
 
-    map.setMaxBounds(bounds);
-    map.fitBounds(bounds);
+    // Přidání obrázku (použijeme imageBounds - aby se obrázek nenatahoval do paddingu)
+    L.imageOverlay('/images/Firewatch-World-Map-Clean.jpg', imageBounds).addTo(map);
 
-    // Vykreslení existujících pinů
+    // Nastavení omezení pohybu (použijeme maxBounds - ty větší hranice)
+    map.setMaxBounds(maxBounds);
+
+    // Na startu vycentrujeme na obrázek
+    map.fitBounds(imageBounds);
+
+    // Vykreslení pinů
     if (typeof mapLocations !== 'undefined' && mapLocations !== null) {
         mapLocations.forEach(function (loc) {
             if (loc.mapX != null && loc.mapY != null) {
                 var point = map.unproject([loc.mapX, loc.mapY], map.getMaxZoom() - 1);
+
                 var marker = L.marker(point).addTo(map);
                 var popupContent = `<b>${loc.name}</b><br>${loc.description || ''}`;
                 marker.bindPopup(popupContent);
+
+                var key = loc.mapX + "_" + loc.mapY;
+                markers[key] = marker;
             }
         });
     }
 
-    // --- TESTOVACÍ NÁSTROJ PRO ZJIŠŤOVÁNÍ POLOHY ---
-    // Po kliknutí do mapy se ukáže bublina se souřadnicemi pro DB
-
+    // Nástroj pro zjišťování souřadnic
     var popup = L.popup();
-
     function onMapClick(e) {
-        // Převod zeměpisných souřadnic (kliknutí) na pixely obrázku
         var point = map.project(e.latlng, map.getMaxZoom() - 1);
-
-        // Zaokrouhlení na celá čísla
         var x = Math.floor(point.x);
         var y = Math.floor(point.y);
 
@@ -61,23 +71,26 @@ function initMap() {
             .setLatLng(e.latlng)
             .setContent(`
                 <div style="text-align:center;">
-                    <b>Souřadnice bodu</b><br>
+                    <b>Souřadnice</b><br>
                     MapX: <code>${x}</code><br>
                     MapY: <code>${y}</code>
                 </div>
             `)
             .openOn(map);
-
         console.log(`Kliknuto: MapX = ${x}, MapY = ${y}`);
     }
-
     map.on('click', onMapClick);
 }
 
-// Funkce pro zoomování z menu
 function zoomToLocation(x, y) {
     if (myMap && x != null && y != null) {
         var target = myMap.unproject([x, y], myMap.getMaxZoom() - 1);
         myMap.flyTo(target, 1);
+
+        var key = x + "_" + y;
+        var marker = markers[key];
+        if (marker) {
+            marker.openPopup();
+        }
     }
 }
