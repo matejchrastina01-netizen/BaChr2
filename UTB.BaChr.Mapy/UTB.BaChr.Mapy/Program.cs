@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-// Konfigurace Cookie Authentication (zachováno z vašeho kódu)
+// Konfigurace Cookie Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -16,11 +16,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
 
-// DÙLEŽITÉ: Registrace služby pro lokace (aby fungovala mapa v HomeControlleru)
+// Registrace aplikaèních služeb
+// 1. Služba pro práci s lokacemi (mapa)
 builder.Services.AddScoped<ILocationService, LocationService>();
 
+// 2. NOVÉ: Služba pro bezpeèné hashování hesel
+builder.Services.AddScoped<ISecurityService, SecurityService>();
+
 string connectionString = builder.Configuration.GetConnectionString("MySQL");
-// Ujistìte se, že verze serveru odpovídá vaší databázi (zachováno z vašeho kódu)
+// Ujistìte se, že verze serveru odpovídá vaší databázi
 ServerVersion serverVersion = new MySqlServerVersion("8.0.38");
 
 builder.Services.AddDbContext<MapyDbContext>(optionsBuilder => optionsBuilder.UseMySql(connectionString, serverVersion));

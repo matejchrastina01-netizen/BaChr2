@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using UTB.BaChr.Mapy.Application.Abstraction;
 using UTB.BaChr.Mapy.Domain.Entities;
+using UTB.BaChr.Mapy.Models;
 
 namespace UTB.BaChr.Mapy.Controllers
 {
@@ -36,24 +37,32 @@ namespace UTB.BaChr.Mapy.Controllers
         [Authorize]
         public IActionResult AddComment(int locationId, string text)
         {
-            if (!string.IsNullOrWhiteSpace(text))
-            {
-                // Získáme ID přihlášeného uživatele
-                var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                if (int.TryParse(userIdStr, out int userId))
-                {
-                    var comment = new Comment
-                    {
-                        LocationId = locationId,
-                        UserId = userId,
-                        Text = text,
-                        DateCreated = DateTime.Now
-                    };
+            // Manuální vytvoření objektu pro validaci
+            var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            int.TryParse(userIdStr, out int userId);
 
-                    _locationService.AddComment(comment);
-                }
+            var comment = new Comment
+            {
+                LocationId = locationId,
+                UserId = userId,
+                Text = text ?? "", // Ošetření null pro validaci
+                DateCreated = DateTime.Now
+            };
+
+            // Validace modelu (Entity)
+            if (TryValidateModel(comment))
+            {
+                _locationService.AddComment(comment);
+                // Úspěch -> přesměrovat na GET (Pattern PRG)
+                return RedirectToAction("Details", new { id = locationId });
             }
-            return RedirectToAction("Details", new { id = locationId });
+
+            // Validace selhala -> Musíme znovu načíst stránku Details a zobrazit chyby
+            var location = _locationService.GetByIdWithDetails(locationId);
+            if (location == null) return NotFound();
+
+            // Vrátíme view Details, ale s chybami v ModelState
+            return View("Details", location);
         }
 
         // POST: Smazání komentáře
@@ -74,43 +83,45 @@ namespace UTB.BaChr.Mapy.Controllers
         // POST: Nahrání fotky
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> UploadPhoto(int locationId, IFormFile file)
+        public async Task<IActionResult> UploadPhoto(PhotoUploadViewModel model)
         {
-            if (file != null && file.Length > 0)
+            // Kontrola validace (včetně našeho FileContent atributu)
+            if (ModelState.IsValid)
             {
-                // Cesta do složky wwwroot/uploads
-                var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
-                if (!Directory.Exists(uploadsFolder))
+                if (model.File != null && model.File.Length > 0)
                 {
-                    Directory.CreateDirectory(uploadsFolder);
-                }
+                    // Cesta do složky wwwroot/uploads
+                    var uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
+                    if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
 
-                // Vytvoření unikátního názvu souboru
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + model.File.FileName;
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-                // Uložení souboru na disk
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(fileStream);
-                }
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.File.CopyToAsync(fileStream);
+                    }
 
-                // Uložení záznamu do DB
-                var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                if (int.TryParse(userIdStr, out int userId))
-                {
+                    var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                    int.TryParse(userIdStr, out int userId);
+
                     var photo = new Photo
                     {
-                        LocationId = locationId,
+                        LocationId = model.LocationId,
                         UserId = userId,
                         ImagePath = "/uploads/" + uniqueFileName
                     };
 
                     _locationService.AddPhoto(photo);
+                    return RedirectToAction("Details", new { id = model.LocationId });
                 }
             }
 
-            return RedirectToAction("Details", new { id = locationId });
+            // Validace selhala -> Znovu načíst View a zobrazit chyby
+            var location = _locationService.GetByIdWithDetails(model.LocationId);
+            if (location == null) return NotFound();
+
+            return View("Details", location);
         }
 
         // POST: Smazání fotky

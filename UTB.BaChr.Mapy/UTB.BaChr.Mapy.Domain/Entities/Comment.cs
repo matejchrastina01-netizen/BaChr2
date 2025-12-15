@@ -9,7 +9,9 @@ namespace UTB.BaChr.Mapy.Domain.Entities
     {
         public int Id { get; set; }
 
-        [Required]
+        // PŘIDÁNO: Validace textu
+        [Required(ErrorMessage = "Text komentáře je povinný.")]
+        [StringLength(500, MinimumLength = 3, ErrorMessage = "Komentář musí mít 3 až 500 znaků.")]
         public string Text { get; set; } = string.Empty;
 
         public DateTime DateCreated { get; set; } = DateTime.Now;

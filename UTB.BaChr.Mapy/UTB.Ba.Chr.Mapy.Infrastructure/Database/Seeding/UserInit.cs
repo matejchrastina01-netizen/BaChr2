@@ -1,4 +1,5 @@
-﻿using UTB.BaChr.Mapy.Domain.Entities;
+﻿using Microsoft.AspNetCore.Identity; // Nutné pro PasswordHasher
+using UTB.BaChr.Mapy.Domain.Entities;
 
 namespace UTB.BaChr.Mapy.Infrastructure.Database.Seeding
 {
@@ -8,25 +9,32 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database.Seeding
         {
             List<User> users = new List<User>();
 
+            // Vytvoříme instanci hasheru přímo zde (pro seeding nepotřebujeme service)
+            var passwordHasher = new PasswordHasher<User>();
+
             // 1. ADMIN ÚČET
-            users.Add(new User
+            var adminUser = new User
             {
-                Id = 1, // Pevné ID je důležité
+                Id = 1,
                 Email = "admin@admin.cz",
                 Name = "Hlavní Administrátor",
-                PasswordHash = "admin", // Heslo
                 Role = "Admin"
-            });
+            };
+            // Ručně zahashujeme heslo "admin"
+            adminUser.PasswordHash = passwordHasher.HashPassword(adminUser, "admin");
+            users.Add(adminUser);
 
-            // 2. KLIENT ÚČET (pro testování)
-            users.Add(new User
+            // 2. KLIENT ÚČET
+            var clientUser = new User
             {
                 Id = 2,
                 Email = "klient@klient.cz",
                 Name = "Testovací Klient",
-                PasswordHash = "klient", // Heslo
-                Role = "User" // Váš systém používá "User" jako roli pro klienta
-            });
+                Role = "User"
+            };
+            // Ručně zahashujeme heslo "klient"
+            clientUser.PasswordHash = passwordHasher.HashPassword(clientUser, "klient");
+            users.Add(clientUser);
 
             return users;
         }

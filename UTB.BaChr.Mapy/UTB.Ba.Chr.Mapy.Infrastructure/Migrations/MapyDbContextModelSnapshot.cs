@@ -38,7 +38,8 @@ namespace UTB.BaChr.Mapy.Infrastructure.Migrations
 
                     b.Property<string>("Text")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -184,7 +185,7 @@ namespace UTB.BaChr.Mapy.Infrastructure.Migrations
                             Id = 1,
                             Email = "admin@admin.cz",
                             Name = "Hlavní Administrátor",
-                            PasswordHash = "admin",
+                            PasswordHash = "AQAAAAIAAYagAAAAEF4Lm+bfW6trujpi+61bKXsoKVko8lyvrOcqjxzaVmRxQkCLFchISyB/0G0TKj3YYw==",
                             Role = "Admin"
                         },
                         new
@@ -192,7 +193,7 @@ namespace UTB.BaChr.Mapy.Infrastructure.Migrations
                             Id = 2,
                             Email = "klient@klient.cz",
                             Name = "Testovací Klient",
-                            PasswordHash = "klient",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDT44nNQSLsNPFY8ehLFqXBrSHTXQZmx4T/4Pfu145ibxloKjjB4/75xESgJodmX1Q==",
                             Role = "User"
                         });
                 });

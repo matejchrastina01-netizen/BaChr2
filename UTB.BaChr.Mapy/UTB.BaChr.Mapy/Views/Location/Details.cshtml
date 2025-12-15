@@ -19,24 +19,26 @@
         <h1>@Model.Name</h1>
         <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Zpět na mapu</a>
     </div>
-
     <p class="lead">@Model.Description</p>
-
     <hr />
 
     <div class="row mb-4">
         <div class="col-12">
             <h3>Fotogalerie</h3>
 
+            <div asp-validation-summary="All" class="text-danger mb-2"></div>
+
             @if (User.Identity != null && User.Identity.IsAuthenticated)
             {
                 <form asp-action="UploadPhoto" asp-controller="Location" method="post" enctype="multipart/form-data" class="mb-3 border p-3 rounded bg-light">
-                    <input type="hidden" name="locationId" value="@Model.Id" />
+                    <input type="hidden" name="LocationId" value="@Model.Id" />
+
                     <label class="form-label">Přidat novou fotku:</label>
                     <div class="input-group">
-                        <input type="file" name="file" class="form-control" accept="image/*" required />
+                        <input type="file" name="File" class="form-control" accept="image/*" />
                         <button type="submit" class="btn btn-primary">Nahrát</button>
                     </div>
+                    <span class="text-danger field-validation-valid" data-valmsg-for="File" data-valmsg-replace="true"></span>
                 </form>
             }
             else
@@ -117,7 +119,8 @@
                     <input type="hidden" name="locationId" value="@Model.Id" />
                     <div class="mb-3">
                         <label class="form-label">Váš komentář:</label>
-                        <textarea name="text" class="form-control" rows="3" required></textarea>
+                        <textarea name="text" class="form-control" rows="3"></textarea>
+                        <span class="text-danger field-validation-valid" data-valmsg-for="text" data-valmsg-replace="true"></span>
                     </div>
                     <button type="submit" class="btn btn-primary">Odeslat</button>
                 </form>
@@ -129,3 +132,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

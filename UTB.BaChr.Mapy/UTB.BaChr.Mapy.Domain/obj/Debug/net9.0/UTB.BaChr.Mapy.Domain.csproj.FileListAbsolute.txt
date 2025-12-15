@@ -33,3 +33,4 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.Ba
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\refint\UTB.BaChr.Mapy.Domain.dll
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.pdb
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\ref\UTB.BaChr.Mapy.Domain.dll
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy.Domain\obj\Debug\net9.0\UTB.BaChr.Mapy.Domain.csproj.AssemblyReference.cache

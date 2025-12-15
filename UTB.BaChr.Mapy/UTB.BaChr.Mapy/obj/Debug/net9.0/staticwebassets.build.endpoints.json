@@ -19105,6 +19105,88 @@
       ]
     },
     {
+      "Route": "uploads/74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.png",
+      "AssetFile": "uploads/74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 18:14:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.yexvfqi2te.png",
+      "AssetFile": "uploads/74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Dec 2025 18:14:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yexvfqi2te"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.png"
+        }
+      ]
+    },
+    {
       "Route": "uploads/8dd6c5db-9691-4ce5-a38f-8ca4365ab785_Figure_1.png",
       "AssetFile": "uploads/8dd6c5db-9691-4ce5-a38f-8ca4365ab785_Figure_1.png",
       "Selectors": [],
