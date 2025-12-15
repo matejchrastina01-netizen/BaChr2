@@ -5,9 +5,13 @@
 }
 
 @* Tento wrapper použijeme, abychom pomocí CSS 
-  roztáhli mapu na celou obrazovku a překryli i navigaci.
+   roztáhli mapu na celou obrazovku a překryli i navigaci.
 *@
-<div id="map-page-wrapper">
+<div id="map-page-wrapper" style="position: relative;">
+    @* Pridané position: relative pre istotu *@
+
+
+    @* --------------------------------------------------- *@
 
     @* Kontejner mapy zůstává, ale jeho styly v CSS kompletně změníme *@
     <div class="map-container" id="map-container">

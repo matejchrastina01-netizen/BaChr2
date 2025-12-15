@@ -12,6 +12,7 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database
     public class MapyDbContext : DbContext
     {
         public DbSet<Location> Locations { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public MapyDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {

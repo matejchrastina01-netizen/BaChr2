@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matej\\OneDrive - Univerzita Tomáše Bati ve Zlíně\\5. semester\\AP5PW - Pokročilé webové technologie\\test\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj",
       "projectName": "UTB.BaChr.Mapy.Domain",
-      "projectPath": "C:\\Users\\matej\\OneDrive - Univerzita Tomáše Bati ve Zlíně\\5. semester\\AP5PW - Pokročilé webové technologie\\test\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj",
+      "projectPath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\UTB.BaChr.Mapy.Domain.csproj",
       "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matej\\OneDrive - Univerzita Tomáše Bati ve Zlíně\\5. semester\\AP5PW - Pokročilé webové technologie\\test\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\obj\\",
+      "outputPath": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,24 @@
+﻿@model UTB.BaChr.Mapy.Models.LoginViewModel
+
+<div class="container mt-5">
+    <h2>Přihlášení</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Heslo</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Přihlásit se</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UTB.BaChr.Mapy.Domain.Entities
 {
-    class User
+    public class User
     {
         public int Id { get; set; }
         public string? Name { get; set; }
