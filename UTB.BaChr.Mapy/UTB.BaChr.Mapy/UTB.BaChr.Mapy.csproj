@@ -21,9 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\Location\" />
-    <Folder Include="Areas\Admin\Views\User\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
   </ItemGroup>
 
   <ItemGroup>

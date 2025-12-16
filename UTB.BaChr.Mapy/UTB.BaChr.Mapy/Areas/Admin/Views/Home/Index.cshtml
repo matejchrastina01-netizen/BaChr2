@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Administrace";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4">Vítejte v administraci</h1>
+    <p>Vyberte sekci, kterou chcete spravovat:</p>
+
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-4">
+            <div class="card p-4">
+                <h3>Uživatelé</h3>
+                <p>Správa uživatelů a rolí.</p>
+                <a asp-controller="Users" asp-action="Index" class="btn btn-primary">Spravovat uživatele</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4">
+                <h3>Lokace</h3>
+                <p>Editace bodů na mapě.</p>
+                <a asp-controller="Locations" asp-action="Index" class="btn btn-primary">Spravovat lokace</a>
+            </div>
+        </div>
+    </div>
+</div>

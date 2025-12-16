@@ -1,0 +1,32 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "Správa uživatelů";
+}
+
+<h1>Správa uživatelů</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Jméno</th>
+            <th>Role</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Email</td>
+                <td>@item.Name</td>
+                <td>@item.Role</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Upravit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('Opravdu smazat?')">Smazat</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
