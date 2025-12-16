@@ -9,7 +9,6 @@ $(document).ready(function () {
 });
 
 function initMap() {
-    // ... (kód pro inicializaci mapy, imageBounds, maxBounds atd. zůstává stejný) ...
     var w = 2048;
     var h = 2048;
 
@@ -38,7 +37,7 @@ function initMap() {
     map.setMaxBounds(maxBounds);
     map.fitBounds(imageBounds);
 
-    // === NOVÉ: Definice vlastního vzhledu ikonky ===
+    // Definice vlastního vzhledu ikonky
     // Použijeme L.divIcon, který vytvoří HTML div s naší CSS třídou
     var firewatchIcon = L.divIcon({
         className: '', // Necháme prázdné, třídu dáme přímo do html
@@ -48,7 +47,6 @@ function initMap() {
         iconAnchor: [15, 30], // Bod, kterým se pin "zapíchne" do mapy (spodní špička)
         popupAnchor: [0, -35] // Kde se otevře bublina relativně k ukotvení
     });
-    // ==============================================
 
 
     // Vykreslení pinů
@@ -57,7 +55,7 @@ function initMap() {
             if (loc.mapX != null && loc.mapY != null) {
                 var point = map.unproject([loc.mapX, loc.mapY], map.getMaxZoom() - 1);
 
-                // UPRAVENO: Přidána možnost { icon: firewatchIcon }
+                // Přidána možnost { icon: firewatchIcon }
                 var marker = L.marker(point, { icon: firewatchIcon }).addTo(map);
 
                 var popupContent = `<b>${loc.name}</b><br>${loc.description || ''}`;
@@ -69,10 +67,9 @@ function initMap() {
         });
     }
 
-    // Nástroj pro zjišťování souřadnic (zůstává stejný)
+    // Nástroj pro zjišťování souřadnic
     var popup = L.popup();
     function onMapClick(e) {
-        // ... (zbytek funkce onMapClick) ...
         var point = map.project(e.latlng, map.getMaxZoom() - 1);
         var x = Math.floor(point.x);
         var y = Math.floor(point.y);
@@ -84,7 +81,7 @@ function initMap() {
     map.on('click', onMapClick);
 }
 
-// Funkce zoomToLocation zůstává stejná
+// Funkce zoomToLocation
 function zoomToLocation(x, y) {
     if (myMap && x != null && y != null) {
         var target = myMap.unproject([x, y], myMap.getMaxZoom() - 1);

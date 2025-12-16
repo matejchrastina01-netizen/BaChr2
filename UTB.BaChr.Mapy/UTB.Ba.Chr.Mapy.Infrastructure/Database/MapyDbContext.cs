@@ -19,7 +19,7 @@ namespace UTB.BaChr.Mapy.Infrastructure.Database
         {
             base.OnModelCreating(modelBuilder);
 
-            // 1. Seeding Lokací (to už tam máte)
+            // 1. Seeding Lokací
             LocationInit locationInit = new LocationInit();
             modelBuilder.Entity<Location>().HasData(locationInit.GetLocations());
 

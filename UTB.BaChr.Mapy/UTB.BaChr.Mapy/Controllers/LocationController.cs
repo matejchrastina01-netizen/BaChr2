@@ -21,7 +21,7 @@ namespace UTB.BaChr.Mapy.Controllers
         // GET: Zobrazení detailu lokace
         public IActionResult Details(int id)
         {
-            // Metodu GetByIdWithDetails musíte mít implementovanou v ILocationService/LocationService (z kroku 4)
+            // Metodu GetByIdWithDetails musíme mít implementovanou v ILocationService/LocationService
             var location = _locationService.GetByIdWithDetails(id);
 
             if (location == null)

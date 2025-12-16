@@ -64,7 +64,7 @@ html, body {
         color: var(--fw-secondary) !important; /* Zlatavá pøi najetí */
     }
 
-/* Speciální styl pro ADMIN odkaz (aby nebyl èervený) */
+/* Speciální styl pro ADMIN odkaz */
 .navbar-nav .nav-link.text-danger {
     color: var(--fw-accent) !important;
     font-weight: bold;

@@ -20,7 +20,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 // 1. Služba pro práci s lokacemi (mapa)
 builder.Services.AddScoped<ILocationService, LocationService>();
 
-// 2. NOVÉ: Služba pro bezpeèné hashování hesel
+// 2. Služba pro bezpeèné hashování hesel
 builder.Services.AddScoped<ISecurityService, SecurityService>();
 
 string connectionString = builder.Configuration.GetConnectionString("MySQL");
@@ -45,11 +45,10 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-// --- PØIDAT TUTO ÈÁST ---
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-// ------------------------
+
 
 app.MapControllerRoute(
     name: "default",
