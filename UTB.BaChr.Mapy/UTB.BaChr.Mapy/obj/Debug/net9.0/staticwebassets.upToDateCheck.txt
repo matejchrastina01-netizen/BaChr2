@@ -52,6 +52,7 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.Ba
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\Firewatch Logo.ico
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
@@ -62,6 +63,7 @@ C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.Ba
 C:\Users\matej\Documents\Pokrocile webove technologie\BaChr\BaChr3\BaChr2\UTB.BaChr.Mapy\UTB.BaChr.Mapy\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Firewatch Logo.ico
 wwwroot\images\Firewatch-World-Map-Clean.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -124,8 +126,14 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg
+wwwroot\uploads\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg
 wwwroot\uploads\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png
+wwwroot\uploads\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg
 wwwroot\uploads\641c5d85-fd76-4d7f-befa-4c9744e050ff_Broun.png
 wwwroot\uploads\74ca806a-f082-4c05-936c-8279bfa3c0b4_Figure_1.png
 wwwroot\uploads\8dd6c5db-9691-4ce5-a38f-8ca4365ab785_Figure_1.png
 wwwroot\uploads\90fe6138-a0d3-48f1-a1f4-6f73cac7a9f8_Figure_1.png
+wwwroot\uploads\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg
+wwwroot\uploads\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg
+wwwroot\uploads\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg

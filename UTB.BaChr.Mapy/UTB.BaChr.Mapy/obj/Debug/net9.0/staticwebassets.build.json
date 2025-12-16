@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BM+WMOFh3EiOTYfUreuJTREcBi9NABR6IPaE/ZsiiDU=",
+  "Hash": "0dlUbiB0DeZ1Urn130V8yuX/dnen72euL8Td4gJohOE=",
   "Source": "UTB.BaChr.Mapy",
   "BasePath": "_content/UTB.BaChr.Mapy",
   "Mode": "Default",
@@ -374,12 +374,12 @@
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-tqqsc9e6vw.gz",
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-5ueloc8x7p.gz",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/UTB.BaChr.Mapy",
-      "RelativePath": "js/site#[.{fingerprint=tqqsc9e6vw}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=5ueloc8x7p}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -388,8 +388,8 @@
       "RelatedAsset": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jugor5axxt",
-      "Integrity": "tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk=",
+      "Fingerprint": "ge53gcgynn",
+      "Integrity": "GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js"
@@ -1193,6 +1193,27 @@
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\x2uqo5g25w-85l7qq14sy.gz",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "Firewatch Logo#[.{fingerprint=85l7qq14sy}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rktae6vn05",
+      "Integrity": "xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico"
+    },
+    {
       "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\xb2glwosak-83jwlth58m.gz",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
@@ -1319,12 +1340,12 @@
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-gc9cmyumvk.gz",
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-y4r9ufrkqu.gz",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/UTB.BaChr.Mapy",
-      "RelativePath": "css/site#[.{fingerprint=gc9cmyumvk}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=y4r9ufrkqu}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1333,8 +1354,8 @@
       "RelatedAsset": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vdv7psyw2q",
-      "Integrity": "o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q=",
+      "Fingerprint": "5ze6sjjats",
+      "Integrity": "r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css"
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gc9cmyumvk",
-      "Integrity": "ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=",
+      "Fingerprint": "y4r9ufrkqu",
+      "Integrity": "ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "Firewatch Logo#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85l7qq14sy",
+      "Integrity": "zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Firewatch Logo.ico"
     },
     {
       "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\images\\Firewatch-World-Map-Clean.jpg",
@@ -1480,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tqqsc9e6vw",
-      "Integrity": "ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=",
+      "Fingerprint": "5ueloc8x7p",
+      "Integrity": "ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2747,6 +2789,48 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i3od6iws9i",
+      "Integrity": "wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rn4vdw0k1d",
+      "Integrity": "V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg"
+    },
+    {
       "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png",
       "SourceId": "UTB.BaChr.Mapy",
       "SourceType": "Discovered",
@@ -2766,6 +2850,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ai586uebt",
+      "Integrity": "NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg"
     },
     {
       "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\641c5d85-fd76-4d7f-befa-4c9744e050ff_Broun.png",
@@ -2850,17 +2955,80 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\90fe6138-a0d3-48f1-a1f4-6f73cac7a9f8_Figure_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e4lkvv96wv",
+      "Integrity": "7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tc73hpmfju",
+      "Integrity": "/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg",
+      "SourceId": "UTB.BaChr.Mapy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\",
+      "BasePath": "_content/UTB.BaChr.Mapy",
+      "RelativePath": "uploads/f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z1ouv9chwy",
+      "Integrity": "RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg"
     }
   ],
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-gc9cmyumvk.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-y4r9ufrkqu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001243781095"
+          "Quality": "0.000371471025"
         }
       ],
       "ResponseHeaders": [
@@ -2870,15 +3038,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "803"
+          "Value": "2691"
         },
         {
           "Name": "ETag",
-          "Value": "\"o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q=\""
+          "Value": "\"r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2898,13 +3066,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=\""
+          "Value": "W/\"ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w="
+          "Value": "sha256-ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk="
         }
       ]
     },
@@ -2919,7 +3087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1784"
+          "Value": "8261"
         },
         {
           "Name": "Content-Type",
@@ -2927,11 +3095,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=\""
+          "Value": "\"ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2941,13 +3109,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w="
+          "Value": "sha256-ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-gc9cmyumvk.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-y4r9ufrkqu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2956,7 +3124,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "803"
+          "Value": "2691"
         },
         {
           "Name": "Content-Type",
@@ -2964,11 +3132,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q=\""
+          "Value": "\"r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2986,18 +3154,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q="
+          "Value": "sha256-r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc="
         }
       ]
     },
     {
-      "Route": "css/site.gc9cmyumvk.css",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-gc9cmyumvk.gz",
+      "Route": "css/site.y4r9ufrkqu.css",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-y4r9ufrkqu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001243781095"
+          "Quality": "0.000371471025"
         }
       ],
       "ResponseHeaders": [
@@ -3007,15 +3175,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "803"
+          "Value": "2691"
         },
         {
           "Name": "ETag",
-          "Value": "\"o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q=\""
+          "Value": "\"r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3035,13 +3203,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=\""
+          "Value": "W/\"ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gc9cmyumvk"
+          "Value": "y4r9ufrkqu"
         },
         {
           "Name": "label",
@@ -3049,12 +3217,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w="
+          "Value": "sha256-ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk="
         }
       ]
     },
     {
-      "Route": "css/site.gc9cmyumvk.css",
+      "Route": "css/site.y4r9ufrkqu.css",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3064,7 +3232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1784"
+          "Value": "8261"
         },
         {
           "Name": "Content-Type",
@@ -3072,11 +3240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=\""
+          "Value": "\"ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3086,7 +3254,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gc9cmyumvk"
+          "Value": "y4r9ufrkqu"
         },
         {
           "Name": "label",
@@ -3094,13 +3262,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w="
+          "Value": "sha256-ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk="
         }
       ]
     },
     {
-      "Route": "css/site.gc9cmyumvk.css.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-gc9cmyumvk.gz",
+      "Route": "css/site.y4r9ufrkqu.css.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\zmarjzxskw-y4r9ufrkqu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3109,7 +3277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "803"
+          "Value": "2691"
         },
         {
           "Name": "Content-Type",
@@ -3117,11 +3285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q=\""
+          "Value": "\"r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:36:06 GMT"
+          "Value": "Tue, 16 Dec 2025 16:54:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3139,7 +3307,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gc9cmyumvk"
+          "Value": "y4r9ufrkqu"
         },
         {
           "Name": "label",
@@ -3147,7 +3315,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-o2PCqeNWoRVyRWeq54+UaDJTEF0QOI5gH9CteERxn1Q="
+          "Value": "sha256-r/apuzuW+IeLmbnv+y8tXLW5eS4NGVeU9r4pk6I03Nc="
         }
       ]
     },
@@ -3450,6 +3618,304 @@
       ]
     },
     {
+      "Route": "Firewatch Logo.85l7qq14sy.ico",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\x2uqo5g25w-85l7qq14sy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000523834468"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1908"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85l7qq14sy"
+        },
+        {
+          "Name": "label",
+          "Value": "Firewatch Logo.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg="
+        }
+      ]
+    },
+    {
+      "Route": "Firewatch Logo.85l7qq14sy.ico",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85l7qq14sy"
+        },
+        {
+          "Name": "label",
+          "Value": "Firewatch Logo.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg="
+        }
+      ]
+    },
+    {
+      "Route": "Firewatch Logo.85l7qq14sy.ico.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\x2uqo5g25w-85l7qq14sy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85l7qq14sy"
+        },
+        {
+          "Name": "label",
+          "Value": "Firewatch Logo.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0="
+        }
+      ]
+    },
+    {
+      "Route": "Firewatch Logo.ico",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\x2uqo5g25w-85l7qq14sy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000523834468"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1908"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg="
+        }
+      ]
+    },
+    {
+      "Route": "Firewatch Logo.ico",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4158"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg="
+        }
+      ]
+    },
+    {
+      "Route": "Firewatch Logo.ico.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\x2uqo5g25w-85l7qq14sy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:50:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfWSjrNH66TyiWp1Fo6OL03fGa450glGPBgWOyuKAL0="
+        }
+      ]
+    },
+    {
       "Route": "images/Firewatch-World-Map-Clean.jpg",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\images\\Firewatch-World-Map-Clean.jpg",
       "Selectors": [],
@@ -3532,13 +3998,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-tqqsc9e6vw.gz",
+      "Route": "js/site.5ueloc8x7p.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-5ueloc8x7p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000807754443"
+          "Quality": "0.000684462697"
         }
       ],
       "ResponseHeaders": [
@@ -3548,19 +4014,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1237"
+          "Value": "1460"
         },
         {
           "Name": "ETag",
-          "Value": "\"tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk=\""
+          "Value": "\"GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3576,18 +4042,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=\""
+          "Value": "W/\"ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5ueloc8x7p"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU="
+          "Value": "sha256-ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.5ueloc8x7p.js",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3597,7 +4071,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3142"
+          "Value": "3540"
         },
         {
           "Name": "Content-Type",
@@ -3605,121 +4079,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=\""
+          "Value": "\"ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-tqqsc9e6vw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1237"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.tqqsc9e6vw.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-tqqsc9e6vw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000807754443"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1237"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqqsc9e6vw"
+          "Value": "5ueloc8x7p"
         },
         {
           "Name": "label",
@@ -3727,13 +4101,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU="
+          "Value": "sha256-ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ="
         }
       ]
     },
     {
-      "Route": "js/site.tqqsc9e6vw.js",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
+      "Route": "js/site.5ueloc8x7p.js.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-5ueloc8x7p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3742,7 +4116,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3142"
+          "Value": "1460"
         },
         {
           "Name": "Content-Type",
@@ -3750,56 +4124,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=\""
+          "Value": "\"GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tqqsc9e6vw"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.tqqsc9e6vw.js.gz",
-      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-tqqsc9e6vw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1237"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 15 Dec 2025 16:39:34 GMT"
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3817,7 +4146,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqqsc9e6vw"
+          "Value": "5ueloc8x7p"
         },
         {
           "Name": "label",
@@ -3825,7 +4154,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tYWj8rOy1v3v36VT36NhDW6spJOjD9jGH5Sh9A456kk="
+          "Value": "sha256-GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-5ueloc8x7p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000684462697"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1460"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\obj\\Debug\\net9.0\\compressed\\bl3dcr4hbo-5ueloc8x7p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:55:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GH4EBwPg4OI5TauIDqDdPpEIG/Edil+amIGdfaNoeGM="
         }
       ]
     },
@@ -21494,6 +21960,170 @@
       ]
     },
     {
+      "Route": "uploads/23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.i3od6iws9i.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:59:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i3od6iws9i"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:59:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.rn4vdw0k1d.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rn4vdw0k1d"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU="
+        }
+      ]
+    },
+    {
       "Route": "uploads/2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png",
       "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png",
       "Selectors": [],
@@ -21572,6 +22202,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.4ai586uebt.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:58:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ai586uebt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:58:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4="
         }
       ]
     },
@@ -21900,6 +22612,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Fo7z2deP0zzHC9TIzSx3hhzxpYFKdCMGfnsQ672u8l0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.e4lkvv96wv.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e4lkvv96wv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.tc73hpmfju.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tc73hpmfju"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.z1ouv9chwy.jpg",
+      "AssetFile": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 16:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1ouv9chwy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs="
         }
       ]
     },

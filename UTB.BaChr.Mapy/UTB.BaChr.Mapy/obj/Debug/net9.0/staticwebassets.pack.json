@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\UTB.BaChr.Mapy.e1shw1ont1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\Firewatch Logo.ico",
+      "PackagePath": "staticwebassets\\Firewatch Logo.ico"
+    },
+    {
       "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -261,8 +265,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg",
+      "PackagePath": "staticwebassets\\uploads\\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg"
+    },
+    {
       "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png",
       "PackagePath": "staticwebassets\\uploads\\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png"
+    },
+    {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg",
+      "PackagePath": "staticwebassets\\uploads\\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg"
     },
     {
       "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\641c5d85-fd76-4d7f-befa-4c9744e050ff_Broun.png",
@@ -279,6 +295,18 @@
     {
       "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\90fe6138-a0d3-48f1-a1f4-6f73cac7a9f8_Figure_1.png",
       "PackagePath": "staticwebassets\\uploads\\90fe6138-a0d3-48f1-a1f4-6f73cac7a9f8_Figure_1.png"
+    },
+    {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\matej\\Documents\\Pokrocile webove technologie\\BaChr\\BaChr3\\BaChr2\\UTB.BaChr.Mapy\\UTB.BaChr.Mapy\\wwwroot\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.UTB.BaChr.Mapy.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

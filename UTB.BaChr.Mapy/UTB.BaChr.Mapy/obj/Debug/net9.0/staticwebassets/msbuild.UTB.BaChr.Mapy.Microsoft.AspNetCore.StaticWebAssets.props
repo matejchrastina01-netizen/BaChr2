@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gc9cmyumvk</Fingerprint>
-      <Integrity>ULjy1skb6q0pn3PQE6JbZ2QQMQ67nNfOq9zuGHnn71w=</Integrity>
+      <Fingerprint>y4r9ufrkqu</Fingerprint>
+      <Integrity>ohtNngqT9hU7DRN5c0HXUGqZJ5vs1Q7ilB4Bh9fQMxk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -35,6 +35,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Firewatch Logo.ico'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>Firewatch Logo.ico</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>85l7qq14sy</Fingerprint>
+      <Integrity>zHgwyRKip6kveXXpVx1f2SrLKGk6Tx6zjJVJbK6DtBg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Firewatch Logo.ico'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Firewatch-World-Map-Clean.jpg'))">
       <SourceType>Package</SourceType>
@@ -66,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tqqsc9e6vw</Fingerprint>
-      <Integrity>ZSZf3BcLCRtsa8LsEhZdS0NwofIeRdj+pX45kaQ5MmU=</Integrity>
+      <Fingerprint>5ueloc8x7p</Fingerprint>
+      <Integrity>ozlQHzaIFIiQMyStixgs4FwG4p32bW0IWHaoV5l40IQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -1152,6 +1170,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i3od6iws9i</Fingerprint>
+      <Integrity>wvYq52Nlb0naz9QSgdS5xJft5oTceC6mh7viv5uSmPM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\23fc8f86-15ce-4ed6-b155-0d2855ac4288_Wapiti Station.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rn4vdw0k1d</Fingerprint>
+      <Integrity>V9Zpb8PUZxQnUm5IQ3vG5tWrFFLojJFVhts9gd0b4JU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2582f980-21aa-47bd-9514-c4058a195dea_Two Forks Tower.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>UTB.BaChr.Mapy</SourceId>
@@ -1169,6 +1223,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2686c9bb-9148-45fd-883b-7895c9c98d63_Figure_1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4ai586uebt</Fingerprint>
+      <Integrity>NNTkHOdpTIS1zS0hGyABx4ok9JXEW1wIECrydUsEuo4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\48319dcb-f183-4bf7-974d-228bdffb40bb_Beartooth Point.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\641c5d85-fd76-4d7f-befa-4c9744e050ff_Broun.png'))">
       <SourceType>Package</SourceType>
@@ -1241,6 +1313,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\90fe6138-a0d3-48f1-a1f4-6f73cac7a9f8_Figure_1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e4lkvv96wv</Fingerprint>
+      <Integrity>7hIMOGWe/bYTZ+q1HSom/iqgPj5fWd9j/qyMat5RO4M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d9b5e20d-ce07-411a-8c95-f15a5060a673_Thorofare Lookout.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tc73hpmfju</Fingerprint>
+      <Integrity>/RwsMYm2r/JcGZj/g1H8o4W14mVbsNZsit0rNQHjFM0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea074e3b-7a18-4c91-aad1-a81eb258361e_Cottonwood Creek.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>UTB.BaChr.Mapy</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/UTB.BaChr.Mapy</BasePath>
+      <RelativePath>uploads/f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z1ouv9chwy</Fingerprint>
+      <Integrity>RxhviATAPmAIrK1NMA2HnybVOMKhnRgqbw/mrk65+gs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f78e1a33-13ac-4263-a45e-b380a81dc9ad_Jonesey Lake.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UTB.BaChr.Mapy.e1shw1ont1.bundle.scp.css'))">
       <SourceType>Package</SourceType>

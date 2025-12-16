@@ -1,3 +1,21 @@
+/* =========================================
+   FIREWATCH TÉMA - BAREVNÁ PALETA
+   ========================================= */
+:root {
+    /* Hlavní akèní barva (tmavì oranžová/vypálená) */
+    --fw-primary: #d96c2c;
+    /* Sekundární barva (zlatavá žlutá) */
+    --fw-secondary: #f2a65a;
+    /* Tmavé pozadí a text (hluboká sépiová hnìdá) */
+    --fw-dark: #3e2c21;
+    /* Svìtlé pozadí (krémová/béžová) */
+    --fw-light: #fdf6e3;
+    /* Akcent pro hovery (svìtlejší oranžová) */
+    --fw-accent: #e88d4a;
+    /* Barva ohranièení a jemných pozadí */
+    --fw-border: #e0d3b8;
+}
+
 html {
     font-size: 14px;
 }
@@ -8,51 +26,96 @@ html {
     }
 }
 
-/* UPRAVENO: Odstranìno 'overflow: hidden', aby šlo scrollovat na stránce Detail */
+/* Aplikace základních barev na celé tìlo */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; <--- TOTO JSME SMAZALI */
+    background-color: var(--fw-light); /* Krémové pozadí */
+    color: var(--fw-dark); /* Tmavì hnìdý text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mùžete zkusit najít font podobnìjší høe */
 }
 
-/* Navbar úpravy */
+
+/* =========================================
+   NAVBAR (Horní lišta)
+   ========================================= */
 .navbar {
     margin-bottom: 0 !important;
     z-index: 1001;
     position: relative;
+    /* Tmavì hnìdé pozadí s oranžovým spodním okrajem */
+    background-color: var(--fw-dark) !important;
+    border-bottom: 3px solid var(--fw-primary);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
-/* Rozložení mapy - zde si overflow hlídáme sami, aby mapa nemìla scrollbar */
+/* Barva odkazù v navbaru */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--fw-light) !important; /* Svìtlý text */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+    /* Hover efekt na odkazy v navbaru */
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-brand:hover {
+        color: var(--fw-secondary) !important; /* Zlatavá pøi najetí */
+    }
+
+/* Speciální styl pro ADMIN odkaz (aby nebyl èervený) */
+.navbar-nav .nav-link.text-danger {
+    color: var(--fw-accent) !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Tlaèítko pro mobilní menu */
+.navbar-light .navbar-toggler {
+    border-color: var(--fw-secondary);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(242, 166, 90, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* =========================================
+   LAYOUT MAPY A SIDEBAR
+   ========================================= */
 .map-layout {
     display: flex;
-    height: calc(100vh - 57px);
+    height: calc(100vh - 57px); /* Výška minus navbar */
     width: 100%;
     overflow: hidden; /* Mapa nesmí pøetékat */
 }
 
-/* ... zbytek CSS (sidebar, map-container atd.) zùstává stejný ... */
+/* Levý postranní panel */
 .sidebar {
     width: 350px;
     min-width: 350px;
-    background-color: #f8f9fa;
-    border-right: 1px solid #dee2e6;
+    background-color: #f4ebd0; /* O nìco tmavší béžová než body */
+    border-right: 2px solid var(--fw-primary); /* Oranžový pøedìl */
     display: flex;
     flex-direction: column;
     z-index: 1000;
     height: 100%;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    box-shadow: 4px 0 8px rgba(0,0,0,0.1);
 }
 
 .sidebar-header {
-    padding: 15px;
-    background-color: #343a40;
-    color: white;
+    padding: 20px 15px;
+    background-color: var(--fw-dark); /* Tmavé záhlaví */
+    color: var(--fw-secondary); /* Zlatý text */
+    border-bottom: 1px solid var(--fw-primary);
 }
 
     .sidebar-header h3 {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
 .sidebar-content {
@@ -60,16 +123,40 @@ html, body {
     flex-grow: 1;
 }
 
+
+/* =========================================
+   PRVKY SEZNAMU LOKACÍ (Sidebar & Index)
+   ========================================= */
+.list-group-item {
+    background-color: transparent; /* Prùhledné, aby byla vidìt barva sidebaru */
+    border-color: var(--fw-border);
+}
+
 .location-item {
     cursor: pointer;
-    border-left: 3px solid transparent;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
 }
 
     .location-item:hover {
-        background-color: #e9ecef;
-        border-left: 3px solid #0d6efd;
+        background-color: #e9dcb5; /* Tmavší béžová pøi najetí */
+        border-left: 4px solid var(--fw-primary); /* Oranžový proužek */
     }
 
+    /* Pøepsání modré barvy textu (text-primary) na naši tmavou */
+    .location-item h5.text-primary {
+        color: var(--fw-dark) !important;
+        font-weight: bold;
+    }
+
+    .location-item .text-muted {
+        color: #6b543e !important; /* Svìtlejší hnìdá pro popisy */
+    }
+
+
+/* =========================================
+   MAPA
+   ========================================= */
 #map-container {
     flex-grow: 1;
     position: relative;
@@ -80,9 +167,131 @@ html, body {
 #map {
     height: 100%;
     width: 100%;
-    background: #242424;
+    background: #242424; /* Tmavé pozadí pod obrázkem mapy */
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+
+/* =========================================
+   TLAÈÍTKA, ODKAZY A OSTATNÍ KOMPONENTY
+   ========================================= */
+
+/* Základní odkazy */
+a {
+    color: var(--fw-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+    a:hover {
+        color: var(--fw-dark);
+    }
+
+/* Primární tlaèítka (Oranžová) */
+.btn-primary {
+    background-color: var(--fw-primary);
+    border-color: var(--fw-primary);
+    color: var(--fw-light);
+    font-weight: 500;
+}
+
+    .btn-primary:hover, .btn-primary:focus {
+        background-color: var(--fw-dark);
+        border-color: var(--fw-dark);
+        box-shadow: 0 0 0 0.25rem rgba(217, 108, 44, 0.5); /* Oranžová záøe */
+    }
+
+/* Sekundární/Outline tlaèítka */
+.btn-outline-secondary {
+    color: var(--fw-dark);
+    border-color: var(--fw-dark);
+}
+
+    .btn-outline-secondary:hover {
+        background-color: var(--fw-dark);
+        color: var(--fw-secondary);
+    }
+
+/* Karty (Detail lokace, Admin) */
+.card {
+    background-color: #fffaf0; /* Velmi svìtlá krémová */
+    border: 1px solid var(--fw-border);
+    box-shadow: 0 2px 5px rgba(62, 44, 33, 0.1);
+}
+
+.card-footer {
+    background-color: rgba(217, 108, 44, 0.05);
+    border-top: 1px solid var(--fw-border);
+}
+
+/* Formuláøové prvky */
+.form-control {
+    background-color: #fdfdf6;
+    border: 1px solid var(--fw-border);
+    color: var(--fw-dark);
+}
+
+    .form-control:focus {
+        border-color: var(--fw-secondary);
+        box-shadow: 0 0 0 0.25rem rgba(242, 166, 90, 0.25); /* Zlatá záøe */
+    }
+
+/* Tabulky v administraci */
+.table {
+    color: var(--fw-dark);
+    border-color: var(--fw-border);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(217, 108, 44, 0.08); /* Jemný oranžový nádech */
+}
+
+.table th {
+    background-color: var(--fw-dark);
+    color: var(--fw-light);
+}
+
+/* Footer */
+footer.footer {
+    background-color: var(--fw-dark);
+    color: #a08d78 !important; /* Svìtlejší hnìdá pro footer text */
+    border-top: 3px solid var(--fw-primary) !important;
+}
+
+    footer.footer a {
+        color: var(--fw-secondary);
+    }
+
+/* =========================================
+   VLASTNÍ MARKER PRO MAPU (Firewatch styl)
+   ========================================= */
+
+/* Základní tvar pinu - kapka otoèená o 45 stupòù */
+.firewatch-pin {
+    background-color: var(--fw-primary) !important; /* Oranžová barva */
+    border-radius: 50% 50% 50% 0; /* Vytvoøí tvar kapky */
+    border: 2px solid var(--fw-dark); /* Tmavý okraj pro lepší kontrast */
+    width: 30px;
+    height: 30px;
+    transform: rotate(-45deg); /* Otoèení špièkou dolù */
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3); /* Jemný stín */
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+    /* Vnitøní svìtlé koleèko */
+    .firewatch-pin::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        margin: 8px 0 0 8px; /* Vycentrování vnitøního koleèka */
+        background: var(--fw-light); /* Krémový støed */
+        position: absolute;
+        border-radius: 50%;
+    }
+
+/* Efekt pøi najetí myší na pin - zvìtšení a zmìna barvy */
+.leaflet-marker-icon:hover .firewatch-pin {
+    transform: rotate(-45deg) scale(1.2); /* Zvìtšení */
+    background-color: var(--fw-secondary) !important; /* Zlatavá barva pøi hoveru */
+    z-index: 1000 !important; /* Aby byl pin nad ostatními */
 }
